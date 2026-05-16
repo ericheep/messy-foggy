@@ -14,6 +14,18 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 60.0, 180.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -140,7 +152,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 160.0, 342.0, 81.0, 22.0 ],
-					"text" : "loadmess -16"
+					"text" : "loadmess -22"
 				}
 
 			}
@@ -1481,14 +1493,14 @@
 														"live.numbox[14]" : [ 58.0 ],
 														"live.numbox[15]" : [ 0.25 ],
 														"live.numbox[1]" : [ 65.0 ],
-														"live.numbox[2]" : [ 58.117312843906412 ],
-														"live.numbox[3]" : [ 72.156412872555364 ],
-														"live.numbox[4]" : [ 78.522589478083518 ],
-														"live.numbox[5]" : [ 77.136862867924862 ],
+														"live.numbox[2]" : [ 70.117312853600382 ],
+														"live.numbox[3]" : [ 75.630492281701663 ],
+														"live.numbox[4]" : [ 79.805571926118091 ],
+														"live.numbox[5]" : [ 78.522589478083518 ],
 														"live.numbox[6]" : [ 0.0 ],
 														"live.numbox[7]" : [ 0.0 ],
-														"live.numbox[8]" : [ 83.166866959146276 ],
-														"live.numbox[9]" : [ 82.117312863294345 ],
+														"live.numbox[8]" : [ 87.630492291395612 ],
+														"live.numbox[9]" : [ 83.166866959146276 ],
 														"live.toggle[10]" : [ 0.0 ],
 														"live.toggle[11]" : [ 0.0 ],
 														"live.toggle[12]" : [ 0.0 ],
@@ -1499,26 +1511,26 @@
 														"live.toggle[17]" : [ 0.0 ],
 														"live.toggle[18]" : [ 0.0 ],
 														"live.toggle[19]" : [ 0.0 ],
-														"live.toggle[1]" : [ 0.0 ],
+														"live.toggle[1]" : [ 1.0 ],
 														"live.toggle[20]" : [ 0.0 ],
 														"live.toggle[21]" : [ 0.0 ],
-														"live.toggle[22]" : [ 0.0 ],
+														"live.toggle[22]" : [ 1.0 ],
 														"live.toggle[23]" : [ 0.0 ],
 														"live.toggle[24]" : [ 0.0 ],
 														"live.toggle[25]" : [ 0.0 ],
-														"live.toggle[26]" : [ 1.0 ],
+														"live.toggle[26]" : [ 0.0 ],
 														"live.toggle[27]" : [ 1.0 ],
-														"live.toggle[28]" : [ 0.0 ],
-														"live.toggle[2]" : [ 1.0 ],
+														"live.toggle[28]" : [ 1.0 ],
+														"live.toggle[2]" : [ 0.0 ],
 														"live.toggle[30]" : [ 0.0 ],
 														"live.toggle[31]" : [ 0.0 ],
 														"live.toggle[32]" : [ 1.0 ],
-														"live.toggle[3]" : [ 1.0 ],
+														"live.toggle[3]" : [ 0.0 ],
 														"live.toggle[4]" : [ 0.0 ],
 														"live.toggle[5]" : [ 0.0 ],
 														"live.toggle[6]" : [ 0.0 ],
-														"live.toggle[7]" : [ 1.0 ],
-														"live.toggle[8]" : [ 0.0 ],
+														"live.toggle[7]" : [ 0.0 ],
+														"live.toggle[8]" : [ 1.0 ],
 														"live.toggle[9]" : [ 0.0 ]
 													}
 ,
@@ -9017,44 +9029,44 @@
 														"live.numbox[14]" : [ 67.0 ],
 														"live.numbox[15]" : [ 0.25 ],
 														"live.numbox[1]" : [ 65.0 ],
-														"live.numbox[2]" : [ 81.215062905834841 ],
-														"live.numbox[3]" : [ 84.689142314981126 ],
-														"live.numbox[4]" : [ 90.05865004297344 ],
-														"live.numbox[5]" : [ 87.581239511362995 ],
-														"live.numbox[6]" : [ 100.864221969091531 ],
-														"live.numbox[7]" : [ 99.581239521056958 ],
+														"live.numbox[2]" : [ 67.175962877185881 ],
+														"live.numbox[3]" : [ 71.039100018954997 ],
+														"live.numbox[4]" : [ 93.215062915528804 ],
+														"live.numbox[5]" : [ 83.03910002864896 ],
+														"live.numbox[6]" : [ 0.0 ],
+														"live.numbox[7]" : [ 0.0 ],
 														"live.numbox[8]" : [ 96.689142324675089 ],
 														"live.numbox[9]" : [ 95.883771973722048 ],
 														"live.toggle[10]" : [ 1.0 ],
-														"live.toggle[11]" : [ 0.0 ],
-														"live.toggle[12]" : [ 1.0 ],
+														"live.toggle[11]" : [ 1.0 ],
+														"live.toggle[12]" : [ 0.0 ],
 														"live.toggle[13]" : [ 0.0 ],
 														"live.toggle[14]" : [ 0.0 ],
 														"live.toggle[15]" : [ 0.0 ],
-														"live.toggle[16]" : [ 1.0 ],
+														"live.toggle[16]" : [ 0.0 ],
 														"live.toggle[17]" : [ 0.0 ],
-														"live.toggle[18]" : [ 1.0 ],
+														"live.toggle[18]" : [ 0.0 ],
 														"live.toggle[19]" : [ 0.0 ],
 														"live.toggle[1]" : [ 0.0 ],
 														"live.toggle[20]" : [ 0.0 ],
-														"live.toggle[21]" : [ 0.0 ],
+														"live.toggle[21]" : [ 1.0 ],
 														"live.toggle[22]" : [ 1.0 ],
 														"live.toggle[23]" : [ 0.0 ],
 														"live.toggle[24]" : [ 0.0 ],
 														"live.toggle[25]" : [ 0.0 ],
 														"live.toggle[26]" : [ 0.0 ],
-														"live.toggle[27]" : [ 1.0 ],
+														"live.toggle[27]" : [ 0.0 ],
 														"live.toggle[28]" : [ 0.0 ],
-														"live.toggle[2]" : [ 0.0 ],
+														"live.toggle[2]" : [ 1.0 ],
 														"live.toggle[30]" : [ 0.0 ],
 														"live.toggle[31]" : [ 0.0 ],
 														"live.toggle[32]" : [ 0.0 ],
 														"live.toggle[3]" : [ 0.0 ],
 														"live.toggle[4]" : [ 0.0 ],
-														"live.toggle[5]" : [ 0.0 ],
+														"live.toggle[5]" : [ 1.0 ],
 														"live.toggle[6]" : [ 0.0 ],
-														"live.toggle[7]" : [ 1.0 ],
-														"live.toggle[8]" : [ 1.0 ],
+														"live.toggle[7]" : [ 0.0 ],
+														"live.toggle[8]" : [ 0.0 ],
 														"live.toggle[9]" : [ 0.0 ]
 													}
 ,
@@ -18140,8 +18152,9 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 127.0, 115.0, 1258.0, 833.0 ],
+						"rect" : [ 237.0, 163.0, 1258.0, 833.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-93",
@@ -18604,8 +18617,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 986.0, 440.0, 35.0, 22.0 ],
-									"text" : "1. $1"
+									"patching_rect" : [ 986.0, 440.0, 49.0, 22.0 ],
+									"text" : "0.15 $1"
 								}
 
 							}
@@ -27382,7 +27395,7 @@
 									"patching_rect" : [ 622.0, 663.0, 100.0, 24.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 173.0, 11.0, 100.0, 24.0 ],
-									"text" : "~*- 02:07 -*~",
+									"text" : "~*- 02:18 -*~",
 									"textjustification" : 2
 								}
 
@@ -28328,7 +28341,7 @@
 									"patching_rect" : [ 111.920539140701294, 227.81458854675293, 49.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 82.916664689779282, 3.311258554458618, 47.08333221077919, 18.0 ],
-									"text" : "33.0 %",
+									"text" : "35.0 %",
 									"textjustification" : 2
 								}
 
@@ -28387,7 +28400,7 @@
 									"patching_rect" : [ 272.847704887390137, 277.483466863632202, 47.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 83.0, 23.0, 46.728127256035805, 18.0 ],
-									"text" : "188.4 %",
+									"text" : "198.0 %",
 									"textjustification" : 2
 								}
 
@@ -28462,7 +28475,7 @@
 									"fontface" : 1,
 									"fontsize" : 10.0,
 									"id" : "obj-77",
-									"items" : [ "None", ",", "Dell AW3420DW", ",", "Dante Virtual Soundcard", ",", "Mac mini Speakers", ",", "wfs" ],
+									"items" : [ "None", ",", "Dante Virtual Soundcard", ",", "Scarlett 2i2 USB", ",", "Mac mini Speakers", ",", "wfs" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -28502,7 +28515,7 @@
 									"patching_rect" : [ 419.20533299446106, 276.158963441848755, 76.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 218.749994784593582, 3.311258554458618, 49.382719993591309, 18.0 ],
-									"text" : "722 MB",
+									"text" : "755 MB",
 									"textjustification" : 2
 								}
 
@@ -28875,13 +28888,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
-									"linecount" : 2,
+									"linecount" : 6,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 191.0, 403.0, 50.0, 35.0 ],
-									"text" : "1. 0.21 0.21 1."
+									"patching_rect" : [ 191.0, 403.0, 50.0, 89.0 ],
+									"text" : "0.560739 0.997401 0.807061 1."
 								}
 
 							}
@@ -29025,7 +29038,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 428.0, 398.0, 197.0, 22.0 ],
-									"text" : "1. 0.62 0.44 1."
+									"text" : "0.901642 0.005335 0.005335 1."
 								}
 
 							}
@@ -29136,7 +29149,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 1.0, 0.62, 0.44, 1.0 ],
+									"bgcolor" : [ 0.901642, 0.005335, 0.005335, 1.0 ],
 									"border" : 1,
 									"id" : "obj-84",
 									"maxclass" : "panel",
@@ -29173,13 +29186,13 @@
 									"patching_rect" : [ 277.0, 289.0, 133.0, 86.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 127.0, 47.0, 117.0, 86.0 ],
-									"saturation" : 0.988235294117647
+									"saturation" : 0.992156862745098
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 1.0, 0.21, 0.21, 1.0 ],
+									"bgcolor" : [ 0.560739, 0.997401, 0.807061, 1.0 ],
 									"border" : 1,
 									"id" : "obj-81",
 									"maxclass" : "panel",
@@ -29216,7 +29229,7 @@
 									"patching_rect" : [ 29.0, 285.0, 117.0, 86.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 47.0, 117.0, 86.0 ],
-									"saturation" : 0.992156862745098
+									"saturation" : 0.968627450980392
 								}
 
 							}
@@ -29563,6 +29576,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
