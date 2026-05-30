@@ -18,6 +18,11 @@ void Piece::setColor(float c) {
 	currentColor = hotColor.getLerped(coolColor, c);
 }
 
+void Piece::setStripBrightness(int stripIndex, float brightness) {
+	int localIndex = getStripLocalIndex(stripIndex);
+	strips[localIndex].hiddenBrightness = brightness;
+}
+
 void Piece::setGlobalSaturation(float globalSaturation) {
 	this->globalSaturation = globalSaturation;
 	for (int i = 0; i < strips.size(); i++) {

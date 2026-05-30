@@ -28,6 +28,7 @@ public:
 	void setGlobalBrightness(float globalBrightness);
 	void setGlobalSaturation(float saturation);
 	void setNoiseFactor(float noiseFactor);
+	void setStripBrightness(int stripIndex, float brightness);
 	
 	void setHSB(int ledIndex, float hue, float brightness);
 	void setStripHSB(int stripIndex, int ledIndex, float hue, float brightness);

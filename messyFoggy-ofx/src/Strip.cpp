@@ -38,9 +38,9 @@ void Strip::update() {
 		ofColor c = colors[i];
 		
 		setLed(index, i,
-			   c.r * globalBrightness,
-			   c.g * globalBrightness,
-			   c.b * globalBrightness
+			   c.r * globalBrightness * hiddenBrightness,
+			   c.g * globalBrightness * hiddenBrightness,
+			   c.b * globalBrightness * hiddenBrightness
 		);
 	}
 }

@@ -27,6 +27,7 @@ void ofApp::setup(){
 	ripples.addStrip(22, 27);
 	ripples.addStrip(23, 27);
 	ripples.addStrip(24, 27);
+	ripples.setStripBrightness(22, 0.5);
 	
 	slices = Piece(&leds);
 	slices.addStrip(16, 27);

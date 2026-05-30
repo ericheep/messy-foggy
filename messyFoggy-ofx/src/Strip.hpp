@@ -16,6 +16,7 @@ public:
 	
 	int index, numLeds;
 	float globalSaturation, globalBrightness;
+	float hiddenBrightness = 1.0f;
 	
 	float getHue();
 	
