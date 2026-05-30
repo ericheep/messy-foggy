@@ -172,8 +172,9 @@ void ofApp::updateOsc() {
 			float p = m.getArgAsFloat(0);
 			float n = m.getArgAsFloat(1);
 			float t = m.getArgAsFloat(2);
+			float b = m.getArgAsFloat(3);
 
-			ripples.addSource(p, n, t);
+			ripples.addSource(p, n, t, b);
 		}
 		
 		if (m.getAddress() == "/ripples/glow/1") {
@@ -252,8 +253,9 @@ void ofApp::updateOsc() {
 			float p = m.getArgAsFloat(0);
 			float s = m.getArgAsFloat(1);
 			float c = m.getArgAsFloat(2);
+			float b = m.getArgAsFloat(3);
 
-			pile.addSource(p, s, c);
+			pile.addSource(p, s, c, b);
 		}
 		
 		if (m.getAddress() == "/slices/source/1") {
@@ -278,6 +280,24 @@ void ofApp::updateOsc() {
 			float c = m.getArgAsFloat(2);
 			
 			slices.addStripSource(18, p, s, c);
+		}
+		
+		if (m.getAddress() == "/slices/source") {
+			float p = m.getArgAsFloat(0);
+			float s = m.getArgAsFloat(1);
+			float c = m.getArgAsFloat(2);
+			float b = m.getArgAsFloat(3);
+
+			slices.addSource(p, s, c, b);
+		}
+		
+		if (m.getAddress() == "/diagonals/source") {
+			float p = m.getArgAsFloat(0);
+			float s = m.getArgAsFloat(1);
+			float c = m.getArgAsFloat(2);
+			float b = m.getArgAsFloat(3);
+			
+			diagonals.addSource(p, s, c, b);
 		}
 		
 		if (m.getAddress() == "/diagonals/source/1") {
@@ -347,8 +367,9 @@ void ofApp::updateOsc() {
 			float p = m.getArgAsFloat(0);
 			float s = m.getArgAsFloat(1);
 			float c = m.getArgAsFloat(2);
+			float b = m.getArgAsFloat(3);
 
-			cuties.addSource(p, s, c);
+			cuties.addSource(p, s, c, b);
 		}
 		
 		if (m.getAddress() == "/cuties/fadeRate") {

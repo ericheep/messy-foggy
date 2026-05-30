@@ -21,7 +21,7 @@ public:
 	void addStrip(int index, int numLeds);
 	void addSpot(float position, float size);
 	
-	void addSource(float position, float size, float c);
+	void addSource(float position, float size, float c, float b);
 	void addStripSource(int stripIndex, float position, float size, float color);
 	
 	void setColors(ofColor hotColor, ofColor coolColor);

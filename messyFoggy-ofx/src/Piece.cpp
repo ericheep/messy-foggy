@@ -94,10 +94,11 @@ void Piece::clearBuffer() {
 	}
 }
 
-void Piece::addSource(float position, float size, float c) {
+void Piece::addSource(float position, float size, float c, float b) {
 	float lowPosition = position - size / 2.0;
 	float highPosition = position + size / 2.0;
-
+	float brightness = ofMap(b, 0.0, 1.0, 0.0, 255);
+	
 	int lowIndex = ofMap(lowPosition, 0.0, 1.0, 0, totalLeds);
 	int highIndex = ofMap(highPosition, 0.0, 1.0, 0, totalLeds);
 		
@@ -152,7 +153,7 @@ void Piece::addStripSource(int stripIndex, float position, float size, float c) 
 		int ledIndex = i;
 		ledIndex = ofClamp(i, 0, numLeds);
 		
-		setStripHSB(stripLocalIndex, ledIndex, hue, 255);
+		setStripHSB(stripLocalIndex, ledIndex, hue, 128);
 	}
 }
 
