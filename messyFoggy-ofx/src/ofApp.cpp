@@ -363,6 +363,15 @@ void ofApp::updateOsc() {
 			wavies.addStripSource(7, p, s, c);
 		}
 		
+		if (m.getAddress() == "/wavies/source") {
+			float p = m.getArgAsFloat(0);
+			float s = m.getArgAsFloat(1);
+			float c = m.getArgAsFloat(2);
+			float b = m.getArgAsFloat(2);
+
+			wavies.addSource(p, s, c, b);
+		}
+		
 		if (m.getAddress() == "/cuties/source") {
 			float p = m.getArgAsFloat(0);
 			float s = m.getArgAsFloat(1);
